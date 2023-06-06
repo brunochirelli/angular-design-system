@@ -1,6 +1,12 @@
 {
   "name": "@brunochirelli/angular-design-system",
-  "version": "0.0.1",
+  "version": "0.0.3",
+  "author": "Bruno Chirelli <brunochirelli@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brunochirelli/angular-design-system.git"
+  },
+  "homepage": "https://github.com/brunochirelli/angular-design-system#readme",
   "peerDependencies": {
     "@angular/common": "^15.2.0",
     "@angular/core": "^15.2.0"
