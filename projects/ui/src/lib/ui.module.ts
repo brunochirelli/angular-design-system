@@ -1,16 +1,9 @@
 import { NgModule } from '@angular/core';
-import { UiComponent } from './ui.component';
-
-
+import { BrnButtonComponent } from './components/button/button.component';
 
 @NgModule({
-  declarations: [
-    UiComponent
-  ],
-  imports: [
-  ],
-  exports: [
-    UiComponent
-  ]
+  declarations: [BrnButtonComponent],
+  imports: [],
+  exports: [BrnButtonComponent],
 })
-export class UiModule { }
+export class UiModule {}

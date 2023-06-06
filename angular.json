@@ -33,6 +33,24 @@
               "zone.js/testing"
             ]
           }
+        },
+        "storybook": {
+          "builder": "@storybook/angular:start-storybook",
+          "options": {
+            "configDir": "projects/ui/.storybook",
+            "browserTarget": "ui:build",
+            "compodoc": false,
+            "port": 6006
+          }
+        },
+        "build-storybook": {
+          "builder": "@storybook/angular:build-storybook",
+          "options": {
+            "configDir": "projects/ui/.storybook",
+            "browserTarget": "ui:build",
+            "compodoc": false,
+            "outputDir": "storybook-static"
+          }
         }
       }
     }
