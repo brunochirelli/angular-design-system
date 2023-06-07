@@ -1,6 +1,6 @@
 {
   "name": "@brunochirelli/angular-design-system",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "peerDependencies": {
     "@angular/common": "^15.2.0",
     "@angular/core": "^15.2.0"
