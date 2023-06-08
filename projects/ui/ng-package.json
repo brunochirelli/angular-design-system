@@ -6,6 +6,6 @@
   },
   "assets": [
     "src/assets",
-    "src/styles/**/*.css"
+    "src/lib/styles/**/*.css"
   ]
 }
