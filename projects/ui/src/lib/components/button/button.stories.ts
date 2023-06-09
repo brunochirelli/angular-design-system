@@ -1,4 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/angular';
+
 import { BrnButtonComponent } from './button.component';
 
 const meta: Meta<BrnButtonComponent> = {

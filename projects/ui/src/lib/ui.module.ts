@@ -1,4 +1,5 @@
 import { NgModule } from '@angular/core';
+
 import { BrnButtonComponent } from './components/button/button.component';
 
 @NgModule({

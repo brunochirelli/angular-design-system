@@ -1,7 +1,6 @@
-body {
-  background-color: red;
-}
+@import url("./_reset.css");
+@import url("./_typography.css");
 
-button {
-  color: white;
+body {
+  font-family: sans-serif;
 }

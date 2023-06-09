@@ -40,7 +40,10 @@
             "configDir": "projects/ui/.storybook",
             "browserTarget": "ui:build",
             "compodoc": false,
-            "port": 6006
+            "port": 6006,
+            "styles": [
+              "projects/ui/src/lib/styles/core.css"
+            ]
           }
         },
         "build-storybook": {
@@ -51,8 +54,22 @@
             "compodoc": false,
             "outputDir": "storybook-static"
           }
+        },
+        "lint": {
+          "builder": "@angular-eslint/builder:lint",
+          "options": {
+            "lintFilePatterns": [
+              "projects/ui/**/*.ts",
+              "projects/ui/**/*.html"
+            ]
+          }
         }
       }
     }
+  },
+  "cli": {
+    "schematicCollections": [
+      "@angular-eslint/schematics"
+    ]
   }
 }
