@@ -1,3 +1,13 @@
+html {
+  --font-sans-serif: system-ui,-apple-system,"Segoe UI",roboto,"Helvetica Neue","Noto Sans","Liberation Sans",arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+  --font-monospace: 'sfmono-regular',menlo,monaco,consolas,"Liberation Mono","Courier New",monospace;
+}
+
+h1,h2,h3,h4,h5,h6,p,small {
+  margin: 0;
+  font-family: var(--font-sans-serif);
+}
+
 h1 {
   font-size: 32px;
   font-style: normal;

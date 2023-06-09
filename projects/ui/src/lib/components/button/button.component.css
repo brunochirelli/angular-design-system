@@ -2,14 +2,43 @@
 
 button {
   padding: 0.5rem 0.75rem;
+  border-radius: 4px;
   margin: 0;
-  color: white;
+  cursor: pointer;
 }
 
-.primary {
-  background-color: green;
+button:focus {
+  outline: 1px solid var(--color-neutral-600);
 }
 
-.secondary {
-  background-color: orange;
+button.primary {
+  background-color: var(--color-primary-300);
+  color: var(--color-on-primary-300);
 }
+
+button.primary:hover {
+  background-color: var(--color-primary-400);
+  color: var(--color-on-primary-400);
+}
+
+button.primary:active {
+  background-color: var(--color-primary-500);
+  color: var(--color-on-primary-500);
+}
+
+button.secondary {
+  background-color: var(--color-neutral-300);
+  color: var(--color-on-neutral-300);
+}
+
+button.secondary:hover {
+  background-color: var(--color-neutral-400);
+  color: var(--color-on-neutral-400);
+}
+
+button.secondary:active {
+  background-color: var(--color-neutral-500);
+  color: var(--color-on-neutral-500);
+}
+
+

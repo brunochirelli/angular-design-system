@@ -1,5 +1,7 @@
 import { Component, Input } from '@angular/core';
 
+import { ThemeService } from '../../theme/theme.service';
+
 @Component({
   selector: 'brn-button',
   templateUrl: './button.component.html',
@@ -8,4 +10,6 @@ import { Component, Input } from '@angular/core';
 export class BrnButtonComponent {
   @Input() label!: string;
   @Input() variant?: 'primary' | 'secondary' = 'primary';
+
+  constructor(private themeService: ThemeService) {}
 }

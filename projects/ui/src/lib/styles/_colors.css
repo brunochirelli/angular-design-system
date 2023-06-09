@@ -1,0 +1,71 @@
+html[data-theme="light"] {
+  /* Primary */
+  --color-primary-100: #EAF1FB;
+  --color-primary-200: #6FA1EC;
+  --color-primary-300: #2C64EF;
+  --color-primary-400: #165ECC;
+  --color-primary-500: #034AB3;
+  --color-on-primary-100: var(--color-primary-500);
+  --color-on-primary-200: var(--color-neutral-800);
+  --color-on-primary-300: var(--color-neutral-light);
+  --color-on-primary-400: var(--color-neutral-light);
+  --color-on-primary-500: var(--color-neutral-light);
+
+  /* Neutrals */
+  --color-neutral-light: #FFF;
+  --color-neutral-100: #F8F9FB;
+  --color-neutral-200: #EEF1F6;
+  --color-neutral-300: #E4E8EE;
+  --color-neutral-400: #CDD3DD;
+  --color-neutral-500: #A8B1BD;
+  --color-neutral-600: #6A7381;
+  --color-neutral-700: #49505A;
+  --color-neutral-800: #1F2329;
+  --color-neutral-900: #121417;
+  --color-on-neutral-light: var(--color-neutral-900);
+  --color-on-neutral-100: var(--color-neutral-900);
+  --color-on-neutral-200: var(--color-neutral-900);
+  --color-on-neutral-300: var(--color-neutral-900);
+  --color-on-neutral-400: var(--color-neutral-900);
+  --color-on-neutral-500: var(--color-neutral-900);
+  --color-on-neutral-600: var(--color-neutral-light);
+  --color-on-neutral-700: var(--color-neutral-light);
+  --color-on-neutral-800: var(--color-neutral-light);
+  --color-on-neutral-900: var(--color-neutral-light);
+
+  /* Success */
+  --color-success-100: #F8F9FB;
+  --color-success-200: #EEF1F6;
+  --color-success-300: #E4E8EE;
+  --color-success-400: #CDD3DD;
+  --color-success-500: #A8B1BD;
+  --color-on-success-100: var(--color-neutral-900);
+  --color-on-success-200: var(--color-neutral-900);
+  --color-on-success-300: var(--color-neutral-900);
+  --color-on-success-400: var(--color-neutral-900);
+  --color-on-success-500: var(--color-neutral-900);
+
+  /* Warning */
+  --color-warning-100: #F8F9FB;
+  --color-warning-200: #EEF1F6;
+  --color-warning-300: #E4E8EE;
+  --color-warning-400: #CDD3DD;
+  --color-warning-500: #A8B1BD;
+  --color-on-warning-100: var(--color-neutral-900);
+  --color-on-warning-200: var(--color-neutral-900);
+  --color-on-warning-300: var(--color-neutral-900);
+  --color-on-warning-400: var(--color-neutral-900);
+  --color-on-warning-500: var(--color-neutral-900);
+
+  /* Error */
+  --color-error-100: #F8F9FB;
+  --color-error-200: #EEF1F6;
+  --color-error-300: #E4E8EE;
+  --color-error-400: #CDD3DD;
+  --color-error-500: #A8B1BD;
+  --color-on-error-100: var(--color-neutral-900);
+  --color-on-error-200: var(--color-neutral-900);
+  --color-on-error-300: var(--color-neutral-900);
+  --color-on-error-400: var(--color-neutral-900);
+  --color-on-error-500: var(--color-neutral-900);
+}
