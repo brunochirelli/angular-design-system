@@ -1,0 +1,13 @@
+@import url("../../styles/core.css");
+
+:host {
+  color: var(--color-primary-300);
+}
+
+:host:hover {
+  color: var(--color-primary-500);
+}
+
+:host:active {
+  color: var(--color-primary-600);
+}

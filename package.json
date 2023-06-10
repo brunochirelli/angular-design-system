@@ -3,13 +3,13 @@
   "version": "0.1.1",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "npm run storybook",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "storybook": "ng run ui:storybook",
     "build-storybook": "ng run ui:build-storybook",
-    "publish": "ng build && ng run ui:build-storybook && cd dist/ui && npm publish --access public",
+    "publish": "cd dist/ui && npm publish --access public",
     "lint:css": "stylelint \"projects/ui/src/**/*.css\" --config .stylelintrc.json",
     "lint": "ng lint && npm run lint:css"
   },
