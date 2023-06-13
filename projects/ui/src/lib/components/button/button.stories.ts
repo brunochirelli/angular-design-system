@@ -14,9 +14,6 @@ const meta: Meta<BrnButtonComponent> = {
         type: 'radio',
       },
     },
-    label: {
-      control: 'text',
-    },
   },
 };
 
@@ -24,11 +21,24 @@ export default meta;
 
 type Story = StoryObj<BrnButtonComponent>;
 
+const render = (args: BrnButtonComponent) => ({
+  props: {
+    args: {
+      ...args,
+      label: args.label,
+    },
+  },
+  template: `
+    <button brn-button [variant]="${args.variant}">${args.label}</button>
+  `,
+});
+
 export const Default: Story = {
   args: {
     variant: 'primary',
-    label: 'Botão',
+    label: 'Button',
   },
+  render,
 };
 
 export const Primary: Story = {
@@ -36,6 +46,7 @@ export const Primary: Story = {
     variant: 'primary',
     label: 'Botão Primary',
   },
+  render,
 };
 
 export const Secondary: Story = {
@@ -43,4 +54,5 @@ export const Secondary: Story = {
     variant: 'secondary',
     label: 'Botão Secondary',
   },
+  render,
 };

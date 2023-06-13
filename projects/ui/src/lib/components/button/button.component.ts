@@ -1,15 +1,20 @@
-import { Component, Input } from '@angular/core';
+import { Attribute, Component, Input } from '@angular/core';
 
 import { ThemeService } from '../../theme/theme.service';
 
 @Component({
-  selector: 'brn-button',
+  selector: 'button[brn-button]',
   templateUrl: './button.component.html',
   styleUrls: ['./button.component.css'],
 })
 export class BrnButtonComponent {
-  @Input() label!: string;
   @Input() variant?: 'primary' | 'secondary' = 'primary';
 
-  constructor(private themeService: ThemeService) {}
+  // For Storybook
+  label: string | undefined;
+
+  constructor(
+    private themeService: ThemeService,
+    @Attribute('variant') variant: 'primary' | 'secondary' = 'primary'
+  ) {}
 }

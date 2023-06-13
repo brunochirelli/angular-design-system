@@ -1,44 +1,46 @@
 @import url("../../styles/core.css");
 
-button {
+:host {
   padding: 0.5rem 0.75rem;
   border-radius: 4px;
   margin: 0;
   cursor: pointer;
 }
 
-button:focus {
+:host:focus {
   outline: 1px solid var(--color-neutral-600);
 }
 
-button.primary {
+.primary {
+  background: var(--color-primary-300);
+}
+
+:host.primary {
   background-color: var(--color-primary-300);
   color: var(--color-on-primary-300);
 }
 
-button.primary:hover {
+:host.primary:hover {
   background-color: var(--color-primary-400);
   color: var(--color-on-primary-400);
 }
 
-button.primary:active {
+:host.primary:active {
   background-color: var(--color-primary-500);
   color: var(--color-on-primary-500);
 }
 
-button.secondary {
+:host.secondary {
   background-color: var(--color-neutral-300);
   color: var(--color-on-neutral-300);
 }
 
-button.secondary:hover {
+:host.secondary:hover {
   background-color: var(--color-neutral-400);
   color: var(--color-on-neutral-400);
 }
 
-button.secondary:active {
+:host.secondary:active {
   background-color: var(--color-neutral-500);
   color: var(--color-on-neutral-500);
 }
-
-
