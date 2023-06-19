@@ -8,7 +8,7 @@ const meta: Meta<BrnButtonComponent> = {
   tags: ['autodocs'],
   argTypes: {
     variant: {
-      options: ['primary', 'secondary'],
+      options: ['primary', 'secondary', 'warning', 'success', 'error'],
       defaultValue: 'primary',
       control: {
         type: 'radio',
@@ -64,6 +64,30 @@ export const Secondary: Story = {
   render,
 };
 
+export const Warning: Story = {
+  args: {
+    variant: 'warning',
+    label: 'Button Warning',
+  },
+  render,
+};
+
+export const Success: Story = {
+  args: {
+    variant: 'success',
+    label: 'Button Success',
+  },
+  render,
+};
+
+export const Error: Story = {
+  args: {
+    variant: 'error',
+    label: 'Button Error',
+  },
+  render,
+};
+
 export const Small: Story = {
   args: {
     variant: 'primary',
@@ -72,6 +96,7 @@ export const Small: Story = {
   },
   render,
 };
+
 export const Large: Story = {
   args: {
     variant: 'primary',

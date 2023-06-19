@@ -55,3 +55,64 @@
   background-color: var(--color-neutral-500);
   color: var(--color-on-neutral-500);
 }
+
+:host.success {
+  background-color: var(--color-success-400);
+  color: var(--color-on-success-400);
+}
+
+:host.success:hover {
+  background-color: var(--color-success-500);
+  color: var(--color-on-success-500);
+}
+
+:host.success:active {
+  background-color: var(--color-success-500);
+  color: var(--color-on-success-500);
+}
+
+:host.warning {
+  background-color: var(--color-warning-300);
+  color: var(--color-on-warning-300);
+}
+
+:host.warning:hover {
+  background-color: var(--color-warning-400);
+  color: var(--color-on-warning-400);
+}
+
+:host.warning:active {
+  background-color: var(--color-warning-500);
+  color: var(--color-on-warning-500);
+}
+
+:host.error {
+  background-color: var(--color-error-300);
+  color: var(--color-on-error-300);
+}
+
+:host.error:hover {
+  background-color: var(--color-error-400);
+  color: var(--color-on-error-400);
+}
+
+:host.error:active {
+  background-color: var(--color-error-500);
+  color: var(--color-on-error-500);
+}
+
+:host.disabled {
+  background-color: var(--color-neutral-200);
+  color: var(--color-on-neutral-200);
+  cursor: not-allowed;
+}
+
+:host.disabled:hover {
+  background-color: var(--color-neutral-200);
+  color: var(--color-on-neutral-200);
+}
+
+:host.disabled:active {
+  background-color: var(--color-neutral-200);
+  color: var(--color-on-neutral-200);
+}

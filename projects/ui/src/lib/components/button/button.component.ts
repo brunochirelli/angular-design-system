@@ -1,5 +1,7 @@
 import { Component, ElementRef, Input, OnInit } from '@angular/core';
 
+import { ColorOptions } from '../../interfaces/colors';
+import { SizeOptions } from '../../interfaces/sizes';
 import { ThemeService } from '../../theme/theme.service';
 
 @Component({
@@ -8,8 +10,8 @@ import { ThemeService } from '../../theme/theme.service';
   styleUrls: ['./button.component.css'],
 })
 export class BrnButtonComponent implements OnInit {
-  @Input() variant?: 'primary' | 'secondary' = 'primary';
-  @Input() size?: 'sm' | 'md' | 'lg' = 'md';
+  @Input() variant?: ColorOptions = 'primary';
+  @Input() size?: SizeOptions = 'md';
 
   // For Storybook
   label: string | undefined;
