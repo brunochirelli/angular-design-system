@@ -14,6 +14,13 @@ const meta: Meta<BrnButtonComponent> = {
         type: 'radio',
       },
     },
+    size: {
+      options: ['sm', 'md', 'lg'],
+      defaultValue: 'md',
+      control: {
+        type: 'radio',
+      },
+    },
   },
 };
 
@@ -29,7 +36,7 @@ const render = (args: BrnButtonComponent) => ({
     },
   },
   template: `
-    <button brn-button [variant]="${args.variant}">${args.label}</button>
+    <button brn-button variant="${args.variant}" size="${args.size}">${args.label}</button>
   `,
 });
 
@@ -44,7 +51,7 @@ export const Default: Story = {
 export const Primary: Story = {
   args: {
     variant: 'primary',
-    label: 'Botão Primary',
+    label: 'Button Primary',
   },
   render,
 };
@@ -52,7 +59,24 @@ export const Primary: Story = {
 export const Secondary: Story = {
   args: {
     variant: 'secondary',
-    label: 'Botão Secondary',
+    label: 'Button Secondary',
+  },
+  render,
+};
+
+export const Small: Story = {
+  args: {
+    variant: 'primary',
+    label: 'Button Small',
+    size: 'sm',
+  },
+  render,
+};
+export const Large: Story = {
+  args: {
+    variant: 'primary',
+    label: 'Button Large',
+    size: 'lg',
   },
   render,
 };
