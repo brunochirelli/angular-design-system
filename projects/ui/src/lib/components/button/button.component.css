@@ -7,12 +7,23 @@
   cursor: pointer;
 }
 
-:host:focus {
-  outline: 1px solid var(--color-neutral-600);
+:host.sm {
+  padding: 0.25rem 0.5rem;
+  font-size: 0.875rem;
 }
 
-.primary {
-  background: var(--color-primary-300);
+:host.md {
+  padding: 0.5rem 0.75rem;
+  font-size: 1rem;
+}
+
+:host.lg {
+  padding: 0.75rem 1rem;
+  font-size: 1.125rem;
+}
+
+:host:focus {
+  outline: 1px solid var(--color-neutral-600);
 }
 
 :host.primary {
