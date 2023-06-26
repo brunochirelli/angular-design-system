@@ -23,96 +23,100 @@
 }
 
 :host:focus {
-  outline: 1px solid var(--color-neutral-600);
+  outline: 1px solid var(--brn-color-neutral-600);
+}
+
+.primary {
+  background: var(--brn-color-primary-300);
 }
 
 :host.primary {
-  background-color: var(--color-primary-300);
-  color: var(--color-on-primary-300);
+  background-color: var(--brn-color-primary-300);
+  color: var(--brn-color-on-primary-300);
 }
 
 :host.primary:hover {
-  background-color: var(--color-primary-400);
-  color: var(--color-on-primary-400);
+  background-color: var(--brn-color-primary-400);
+  color: var(--brn-color-on-primary-400);
 }
 
 :host.primary:active {
-  background-color: var(--color-primary-500);
-  color: var(--color-on-primary-500);
+  background-color: var(--brn-color-primary-500);
+  color: var(--brn-color-on-primary-500);
 }
 
 :host.secondary {
-  background-color: var(--color-neutral-300);
-  color: var(--color-on-neutral-300);
+  background-color: var(--brn-color-neutral-300);
+  color: var(--brn-color-on-neutral-300);
 }
 
 :host.secondary:hover {
-  background-color: var(--color-neutral-400);
-  color: var(--color-on-neutral-400);
+  background-color: var(--brn-color-neutral-400);
+  color: var(--brn-color-on-neutral-400);
 }
 
 :host.secondary:active {
-  background-color: var(--color-neutral-500);
-  color: var(--color-on-neutral-500);
+  background-color: var(--brn-color-neutral-500);
+  color: var(--brn-color-on-neutral-500);
 }
 
 :host.success {
-  background-color: var(--color-success-400);
-  color: var(--color-on-success-400);
+  background-color: var(--brn-color-success-400);
+  color: var(--brn-color-on-success-400);
 }
 
 :host.success:hover {
-  background-color: var(--color-success-500);
-  color: var(--color-on-success-500);
+  background-color: var(--brn-color-success-500);
+  color: var(--brn-color-on-success-500);
 }
 
 :host.success:active {
-  background-color: var(--color-success-500);
-  color: var(--color-on-success-500);
+  background-color: var(--brn-color-success-500);
+  color: var(--brn-color-on-success-500);
 }
 
 :host.warning {
-  background-color: var(--color-warning-300);
-  color: var(--color-on-warning-300);
+  background-color: var(--brn-color-warning-300);
+  color: var(--brn-color-on-warning-300);
 }
 
 :host.warning:hover {
-  background-color: var(--color-warning-400);
-  color: var(--color-on-warning-400);
+  background-color: var(--brn-color-warning-400);
+  color: var(--brn-color-on-warning-400);
 }
 
 :host.warning:active {
-  background-color: var(--color-warning-500);
-  color: var(--color-on-warning-500);
+  background-color: var(--brn-color-warning-500);
+  color: var(--brn-color-on-warning-500);
 }
 
 :host.error {
-  background-color: var(--color-error-300);
-  color: var(--color-on-error-300);
+  background-color: var(--brn-color-error-300);
+  color: var(--brn-color-on-error-300);
 }
 
 :host.error:hover {
-  background-color: var(--color-error-400);
-  color: var(--color-on-error-400);
+  background-color: var(--brn-color-error-400);
+  color: var(--brn-color-on-error-400);
 }
 
 :host.error:active {
-  background-color: var(--color-error-500);
-  color: var(--color-on-error-500);
+  background-color: var(--brn-color-error-500);
+  color: var(--brn-color-on-error-500);
 }
 
 :host.disabled {
-  background-color: var(--color-neutral-200);
-  color: var(--color-on-neutral-200);
+  background-color: var(--brn-color-neutral-200);
+  color: var(--brn-color-on-neutral-200);
   cursor: not-allowed;
 }
 
 :host.disabled:hover {
-  background-color: var(--color-neutral-200);
-  color: var(--color-on-neutral-200);
+  background-color: var(--brn-color-neutral-200);
+  color: var(--brn-color-on-neutral-200);
 }
 
 :host.disabled:active {
-  background-color: var(--color-neutral-200);
-  color: var(--color-on-neutral-200);
+  background-color: var(--brn-color-neutral-200);
+  color: var(--brn-color-on-neutral-200);
 }

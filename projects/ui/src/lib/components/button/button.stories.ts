@@ -3,7 +3,7 @@ import { type Meta, type StoryObj } from '@storybook/angular';
 import { BrnButtonComponent } from './button.component';
 
 const meta: Meta<BrnButtonComponent> = {
-  title: 'Example/Button',
+  title: 'Components/Button',
   component: BrnButtonComponent,
   tags: ['autodocs'],
   argTypes: {
