@@ -5,6 +5,8 @@
   border-radius: 4px;
   margin: 0;
   cursor: pointer;
+
+  /* teste */
 }
 
 :host.sm {
