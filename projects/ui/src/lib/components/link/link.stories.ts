@@ -3,7 +3,7 @@ import { Meta, StoryObj } from '@storybook/angular';
 import { LinkComponent } from './link.component';
 
 const meta: Meta<LinkComponent> = {
-  title: 'Example/Link',
+  title: 'Components/Link',
   component: LinkComponent,
   tags: ['autodocs'],
 };

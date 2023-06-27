@@ -16,7 +16,7 @@ export class ThemeService {
     const currentTheme = this.themeBehavior.value;
     const nextTheme = currentTheme === 'light' ? 'dark' : 'light';
 
-    this.document.querySelector('html')?.setAttribute('data-theme', nextTheme);
+    this.document.querySelector(':root')?.setAttribute('data-theme', nextTheme);
     this.themeBehavior.next(nextTheme);
   }
 }

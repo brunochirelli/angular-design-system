@@ -6,6 +6,7 @@ const config: StorybookConfig = {
     '@storybook/addon-links',
     '@storybook/addon-essentials',
     '@storybook/addon-interactions',
+    '@storybook/addon-styling',
     'storybook-design-token',
   ],
   framework: {
@@ -15,6 +16,7 @@ const config: StorybookConfig = {
   docs: {
     autodocs: 'tag',
   },
+  staticDirs: ['../src/assets'],
 };
 
 export default config;
