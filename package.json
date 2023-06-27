@@ -11,7 +11,8 @@
     "build-storybook": "ng run ui:build-storybook",
     "publish": "npm run build && cd dist/ui && npm publish --access public",
     "lint:css": "stylelint \"projects/ui/src/**/*.css\" --config .stylelintrc.json",
-    "lint": "ng lint && npm run lint:css"
+    "lint": "ng lint && npm run lint:css",
+    "prepare": "husky install"
   },
   "private": true,
   "dependencies": {
@@ -67,6 +68,7 @@
     "stylelint-config-idiomatic-order": "^9.0.0",
     "stylelint-config-standard": "^33.0.0",
     "stylelint-order": "^6.0.3",
-    "typescript": "~4.9.4"
+    "typescript": "~4.9.4",
+    "husky": "^8.0.0"
   }
 }
