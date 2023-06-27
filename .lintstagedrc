@@ -1,3 +1,4 @@
 {
-  "*": "lint"
+  "*.css": "npm run lint",
+  "*.ts": "npm run lint"
 }
