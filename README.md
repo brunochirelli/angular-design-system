@@ -1,27 +1,55 @@
-# AngularDesignSystem
+# Angular Design System Project
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.7.
+This project is an implementation of a design system for Angular. It provides a set of reusable UI components and styles that can be used across Angular applications to ensure consistency and maintainability of the UI.
 
-## Development server
+## Getting Started
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+To get started with this project, follow these steps:
 
-## Code scaffolding
+Clone the repository to your local machine
+Install the dependencies by running npm install
+Run the project by running ng serve
+Design System Components
+The following design system components are included in this project:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Buttons
+- Forms
+- Navigation
+- Modals
+- Tabs
+- Typography
+- Icons
+- Colors
+- Grid
+- Usage
 
-## Build
+To use the design system components in your Angular applications, you can simply import the individual modules from this project in your Angular modules. For example, to use the buttons module, you can import it in your module like this:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Typescript
 
-## Running unit tests
+import { ButtonsModule } from 'angular-design-system';
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+@NgModule({
+imports: [ButtonsModule],
+declarations: [MyComponent]
+})
+export class MyModule {}
 
-## Running end-to-end tests
+## Contribution
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+This project is open for contribution. To contribute, please follow these steps:
 
-## Further help
+- Fork the repository
+- Create a new branch for your contribution
+- Make your contribution
+- Test your contribution
+- Submit a pull request
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+## Acknowledgements
+
+This project was inspired by other design systems like Material Design and
+Bootstrap. Thank you to the Angular community for making this project possible.
