@@ -6,6 +6,9 @@
   "plugins": [
     "stylelint-order"
   ],
+  "ignoreFiles": [
+    "**/*.ts"
+  ],
   "rules": {
     "no-empty-source": null,
     "custom-property-pattern": "brn-.+"

@@ -2,25 +2,13 @@ import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'brn-icons',
-  template: `
-    <svg [ngStyle]="{ fill, 'width.px': width, 'height.px': width }">
-      <use [attr.xlink:href]="getIconPath()" />
-    </svg>
-  `,
-  styles: [
-    `
-      img {
-        display: inline-block;
-        vertical-align: middle;
-        line-height: 0;
-      }
-    `,
-  ],
+  templateUrl: `./icons.component.html`,
+  styleUrls: ['./icons.component.css'],
 })
 export class IconsComponent {
   @Input() name!: string;
-  @Input() fill = 'red';
-  @Input() width = 80;
+  @Input() fill = 'black';
+  @Input() width = 25;
 
   private iconsPath = 'icons';
 
