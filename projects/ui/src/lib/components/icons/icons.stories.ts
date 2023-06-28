@@ -20,8 +20,8 @@ type Story = StoryObj<IconsComponent>;
 
 export const Default: Story = {
   args: {
-    name: 'square',
-    fill: 'red',
-    width: 80,
+    name: 'accessible',
+    fill: 'black',
+    width: 25,
   },
 };

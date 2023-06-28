@@ -1,1 +1,3 @@
-<p>icons works!</p>
+<svg [ngStyle]="{ fill, 'width.px': width, 'height.px': width }" class="icon">
+  <use [attr.xlink:href]="getIconPath()" />
+</svg>
