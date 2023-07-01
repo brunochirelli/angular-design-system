@@ -1,0 +1,39 @@
+:host.brn-card {
+  display: block;
+  width: 100%;
+
+  /* padding: 16px; */
+  border-radius: 4px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px 0 rgb(0 0 0 / 10%);
+}
+
+:host.brn-card-outline {
+  width: 100%;
+  border: 1px solid #747474;
+  border-radius: 4px;
+  background-color: transparent;
+  box-shadow: none;
+}
+
+:host.brn-card-filled {
+  width: 100%;
+  border-radius: 4px;
+  background-color: #fff;
+  box-shadow: none;
+}
+
+:host.brn-card-header,
+:host.brn-card-body {
+  display: block;
+  padding: 16px;
+}
+
+:host.brn-card-header {
+  border-bottom: 1px solid #e0e0e0;
+  background: grey;
+}
+
+:host.brn-card-body {
+  color: var(--brn-color-neutral-900);
+}

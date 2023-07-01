@@ -5,7 +5,7 @@ import { Component, Input } from '@angular/core';
   templateUrl: `./icons.component.html`,
   styleUrls: ['./icons.component.css'],
 })
-export class IconsComponent {
+export class BrnIconsComponent {
   @Input() name!: string;
   @Input() fill = 'black';
   @Input() width = 25;

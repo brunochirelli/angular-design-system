@@ -1,22 +1,22 @@
 import { Meta, StoryObj } from '@storybook/angular';
 
-import { LinkComponent } from './link.component';
+import { BrnLinkComponent } from './link.component';
 
-const meta: Meta<LinkComponent> = {
+const meta: Meta<BrnLinkComponent> = {
   title: 'Components/Link',
-  component: LinkComponent,
+  component: BrnLinkComponent,
   tags: ['autodocs'],
 };
 
 export default meta;
 
-type Story = StoryObj<LinkComponent>;
+type Story = StoryObj<BrnLinkComponent>;
 
 export const Default: Story = {
   args: {
     label: 'Link',
   },
-  render: (args: LinkComponent) => ({
+  render: (args: BrnLinkComponent) => ({
     template: `
       <a brn-link href="#">${args.label}</a>
     `,

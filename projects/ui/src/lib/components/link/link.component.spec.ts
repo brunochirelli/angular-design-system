@@ -1,18 +1,17 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { LinkComponent } from './link.component';
+import { BrnLinkComponent } from './link.component';
 
 describe('LinkComponent', () => {
-  let component: LinkComponent;
-  let fixture: ComponentFixture<LinkComponent>;
+  let component: BrnLinkComponent;
+  let fixture: ComponentFixture<BrnLinkComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ LinkComponent ]
-    })
-    .compileComponents();
+      declarations: [BrnLinkComponent],
+    }).compileComponents();
 
-    fixture = TestBed.createComponent(LinkComponent);
+    fixture = TestBed.createComponent(BrnLinkComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
