@@ -1,24 +1,55 @@
-# Ui
+# Angular Design System Project
 
-This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.0.
+This project is an implementation of a design system for Angular. It provides a set of reusable UI components and styles that can be used across Angular applications to ensure consistency and maintainability of the UI.
 
-## Code scaffolding
+## Getting Started
 
-Run `ng generate component component-name --project ui` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module --project ui`.
-> Note: Don't forget to add `--project ui` or else it will be added to the default project in your `angular.json` file. 
+To get started with this project, follow these steps:
 
-## Build
+Clone the repository to your local machine
+Install the dependencies by running npm install
+Run the project by running ng serve
+Design System Components
+The following design system components are included in this project:
 
-Run `ng build ui` to build the project. The build artifacts will be stored in the `dist/` directory.
+- Buttons
+- Forms
+- Navigation
+- Modals
+- Tabs
+- Typography
+- Icons
+- Colors
+- Grid
+- Usage
 
-## Publishing
+To use the design system components in your Angular applications, you can simply import the individual modules from this project in your Angular modules. For example, to use the buttons module, you can import it in your module like this:
 
-After building your library with `ng build ui`, go to the dist folder `cd dist/ui` and run `npm publish`.
+Typescript
 
-## Running unit tests
+import { ButtonsModule } from 'angular-design-system';
 
-Run `ng test ui` to execute the unit tests via [Karma](https://karma-runner.github.io).
+@NgModule({
+imports: [ButtonsModule],
+declarations: [MyComponent]
+})
+export class MyModule {}
 
-## Further help
+## Contribution
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+This project is open for contribution. To contribute, please follow these steps:
+
+- Fork the repository
+- Create a new branch for your contribution
+- Make your contribution
+- Test your contribution
+- Submit a pull request
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+## Acknowledgements
+
+This project was inspired by other design systems like Material Design and
+Bootstrap. Thank you to the Angular community for making this project possible.
