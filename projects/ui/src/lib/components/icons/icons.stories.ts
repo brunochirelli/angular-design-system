@@ -1,11 +1,11 @@
 import { CommonModule } from '@angular/common';
 import { Meta, StoryObj, moduleMetadata } from '@storybook/angular';
 
-import { IconsComponent } from './icons.component';
+import { BrnIconsComponent } from './icons.component';
 
-const meta: Meta<IconsComponent> = {
+const meta: Meta<BrnIconsComponent> = {
   title: 'Components/Icons',
-  component: IconsComponent,
+  component: BrnIconsComponent,
   tags: ['autodocs'],
   decorators: [
     moduleMetadata({
@@ -16,7 +16,7 @@ const meta: Meta<IconsComponent> = {
 
 export default meta;
 
-type Story = StoryObj<IconsComponent>;
+type Story = StoryObj<BrnIconsComponent>;
 
 export const Default: Story = {
   args: {
