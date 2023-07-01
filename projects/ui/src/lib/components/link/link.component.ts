@@ -6,7 +6,7 @@ import { Component, Input } from '@angular/core';
   templateUrl: './link.component.html',
   styleUrls: ['./link.component.css'],
 })
-export class LinkComponent {
+export class BrnLinkComponent {
   @Input() variant = 'primary';
   @Input() highlight = false;
 
